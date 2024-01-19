@@ -1,0 +1,70 @@
+.icon-phone,.icon-email{
+    color: var(--frist-color);
+    font-size: var(--h2-font-size);
+}
+.email,.call{
+    font-size: var(--small-font-size);
+}
+.email span:first-child,.call span:first-child{
+    color: var(--title-color);
+}
+.email span:last-child,.call span:last-child{
+    color: var(--text-color);
+}
+.social-link{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--title-color);
+    background-color: var(--container-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: .3s  ease;
+}
+
+.social-link:hover{
+background-color: var(--frist-color);
+color: var(--text-white);
+}
+.github:hover{
+background-color:var(--text-black);
+color: var(--body-color);
+}
+.insta:hover{
+background-color:rgb(143, 37, 87);
+color:white ;
+}
+.face:hover{
+background-color:rgb(17, 55, 153);
+color:white ;
+}
+
+.form-control{
+    border: 1px solid var(--container-color) !important;
+    background-color: var(--container-color) !important;
+    color: var(--title-color) !important;
+    border-radius: 30px !important;
+    font-size: var(--small-font-size) !important;
+    padding: 12px 20px !important;
+    transition: .3s ease;
+}
+.form-control::placeholder{
+    color: var(--title-color) !important;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem var(--frist-color) !important;
+}
+form textarea{
+    height: 200px;
+}
+@media (max-width:768px) {
+    .contact h2{
+        font-size: var(--h2-font-size);
+        }
+        .icon-phone,.icon-email{
+            font-size: 20px;
+        }
+ 
+
+}

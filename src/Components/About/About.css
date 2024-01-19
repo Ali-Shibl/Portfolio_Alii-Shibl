@@ -1,0 +1,73 @@
+.text{
+font-size: var(--big-font-size);
+font-weight: var(--weight-800);
+text-align: center;
+margin-bottom: 60px;
+}
+.about .row h3{
+font-size: var(--h2-font-size);
+font-weight: var(--weight-600);
+margin-bottom: 30px;
+}
+.about .row p{
+    line-height: 2;
+font-size: var(--small-font-size);
+}
+.about .row p span{
+color: var(--title-color);
+font-weight: var(--weight-600);
+}
+.separtor{
+    border-top:1px solid var(--border-color) ;
+    width: 40%;
+    margin: 70px auto 53px;
+}
+.skills{
+padding: 0 0 100px 0;
+}
+.skills>h3{
+ 
+        font-size: var(--h2-font-size);
+        font-weight: var(--weight-600);
+        margin-bottom: 40px; 
+        text-align: center;       
+}
+.CircularProgressbar{
+width: 120px;
+height: 120px;
+}
+.CircularProgressbar-path{
+    stroke: var(--frist-color) !important;
+    stroke-linecap: butt !important;
+    
+}
+.CircularProgressbar-trail{
+    stroke: var( --container-color) !important;    
+}
+.CircularProgressbar-text{
+fill: var(--title-color) !important;
+font-family: var(--second-font);
+font-size: var(--large-font-size) !important;
+}
+.h-skill{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--weight-400);
+
+    margin-top: 22px;
+}
+@media (max-width:768px) {
+    .about h2{
+        font-size: var(--h2-font-size);
+        }
+    .skills>h3{
+ 
+            font-size: 25px;
+                   
+    }    
+    .about .row h3{
+        font-size: 25px;
+        
+        }
+
+}

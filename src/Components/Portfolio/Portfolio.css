@@ -1,0 +1,40 @@
+.box{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transition:.6s;
+}
+.project{
+    overflow: hidden;
+    background-color: var(--container-color);
+}
+
+
+.project:hover .box{
+   bottom: 82%;
+}
+.link{
+    color: var(--container-color);
+    background-color: var(--frist-color);
+}
+.description{
+    color: var(--btn-color);
+}
+.swiper-pagination-bullet{
+   background-color: var(--frist-color)!important;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -5px) !important;
+
+}
+
+@media (max-width:768px) {
+    .portfolio h2{
+        
+        font-size: var(--h2-font-size);
+        }
+
+        .project h5{
+            font-size: var(--h3-font-size);
+          }
+}
